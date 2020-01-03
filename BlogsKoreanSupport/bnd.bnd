@@ -1,0 +1,8 @@
+Bundle-Name: BlogsKoreanSupport
+Bundle-SymbolicName: com.osp.liferay.blogs.web.korean
+Bundle-Version: 1.0.0
+
+Provide-Capability:\
+liferay.resource.bundle;resource.bundle.base.name="content.Language",\
+liferay.resource.bundle;resource.bundle.aggregate:String="(bundle.symbolic.name=com.osp.liferay.blogs.web.korean),(bundle.symbolic.name=com.liferay.blogs.web)";bundle.symbolic.name=com.liferay.blogs.web;resource.bundle.base.name="content.Language";service.ranking:Long="2";\
+servlet.context.name=blogs-web

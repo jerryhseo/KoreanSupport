@@ -1,0 +1,16 @@
+Bundle-Name: OSPConfigurationAdminLanguageBundle
+Bundle-SymbolicName: com.osp.portal.config.admin.language
+Bundle-Version: 1.0.0
+Export-Package: com.osp.portal.config.admin.language
+
+Provide-Capability: \
+liferay.resource.bundle;resource.bundle.base.name="content.Language",\
+liferay.resource.bundle;resource.bundle.aggregate:String="(bundle.symbolic.name=com.osp.portal.config.admin.language),(bundle.symbolic.name=com.liferay.product.navigation.site.administration)(bundle.symbolic.name=com.liferay.configuration.admin.web)";\
+bundle.symbolic.name=com.liferay.product.navigation.site.administration;\
+resource.bundle.base.name="content.Language";service.ranking:Long="2";\
+servlet.context.name=product-navigation-site-administration;
+### liferay.resource.bundle;resource.bundle.aggregate:String="(bundle.symbolic.name=com.osp.portal.config.admin.language),(bundle.symbolic.name=com.liferay.configuration.admin.web)";bundle.symbolic.name=com.liferay.configuration.admin.web;resource.bundle.base.name="content.Language";service.ranking:Long="2";servlet.context.name=/;
+
+Require-Capability: \
+liferay.resource.bundle;\
+		filter:="(bundle.symbolic.name=com.liferay.product.navigation.site.administration)"

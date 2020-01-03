@@ -1,0 +1,4 @@
+Bundle-Activator: com.osp.support.language.OSPKoreanSupportActivator
+Bundle-Name: OSPKoreanSupport
+Bundle-SymbolicName: com.osp.support.language
+Bundle-Version: 1.0.0

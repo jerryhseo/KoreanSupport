@@ -1,0 +1,4 @@
+Bundle-Name: OSPGlobalKoreanSupport
+Bundle-SymbolicName: com.osp.global.language.support.korean
+Bundle-Version: 1.0.0
+Export-Package: com.osp.global.language.support.korean.constants
