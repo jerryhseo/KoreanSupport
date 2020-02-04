@@ -1,0 +1,7 @@
+Bundle-Name: MessageBoardKoreanSupport
+Bundle-SymbolicName: com.osp.messageboard.web.korean
+Bundle-Version: 1.0.0
+Provide-Capability:\
+liferay.resource.bundle;resource.bundle.base.name="content.Language",\
+liferay.resource.bundle;resource.bundle.aggregate:String="(bundle.symbolic.name=com.osp.messageboard.web.korean),(bundle.symbolic.name=com.liferay.message.boards.web)";bundle.symbolic.name=com.liferay.message.boards.web;resource.bundle.base.name="content.Language";service.ranking:Long="2";\
+servlet.context.name=message-boards-web
